@@ -1,0 +1,33 @@
+body {
+    background-color: #bdbdbd;
+    background-image: url(img/123.jpg);
+
+    background-repeat: no-repeat;
+    background-attachment: right top;
+    background-size: 50px 70px;
+}
+
+.menu a {
+    color: #577fbb;
+    text-decoration: none;
+    display: inline-block;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.round{
+    border-radius: 50%;
+    border: 2px solid wheat
+}
+.imgL{
+    float: left;
+    margin-right: 30px;
+}
+#container{
+    width: 980px;
+    margin:0 auto;
+   
+}
+.clear{
+    clear:both
+}    

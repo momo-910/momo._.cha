@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap');
+body {
+    background-color: rgb(65, 85, 119);
+}
+/*導覽樣式設定*/
+body,ul{
+    margin: 0px;
+}
+
+header{
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+}
+
+nav{
+    background-color: rgb(53, 66, 87);
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    margin: 0px;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 81, 123);
+    transition: background-color 1s linear, color 1s ease-in;
+}
+/*標題列樣式設定*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(65, 85, 119);
+}
+.title{
+    text-align: center;
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-variation-settings:
+    "ELSH" 0;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+}
+.title2{
+    text-align: center;
+}
+.sub-section{
+    min-height: 265px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    width: 98%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+}
+.sub-section2{
+    background-color: rgb(43, 57, 81);
+    margin: 10px;
+    width: 98%;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-section3{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    width: 98%;
+    border-radius: 20px;
+    color: rgb(43, 57, 81);
+    font-family: "Noto Sans TC", sans-serif;
+    
+}
+.box__text {
+    display: table-cell;
+    vertical-align: middle;
+}
+.sub-section4{
+    background-color: rgb(250, 244, 244);
+    margin: 10px;
+    width: 98%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(43, 57, 81);
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 35px;
+}
+.text{
+    justify-content :row;
+    font-size: 30px;
+}
+.container {
+    text-align: center;    
+  }
+.content {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white{
+    color: rgb(255, 255, 255);
+    font-size: 0;
+}
+.imgL{
+    margin-right: 30px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
